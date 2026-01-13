@@ -1,0 +1,5 @@
+# Class Layout
+
+- Private data members first
+- Public interface last
+- Javadoc on almost all public functions
