@@ -1,3 +1,9 @@
+---
+description: how to structure C++ declarations
+globs:
+alwaysApply: true
+---
+
 # Class Layout
 
 - Private data members first

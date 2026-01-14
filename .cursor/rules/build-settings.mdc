@@ -1,0 +1,12 @@
+---
+description: Respect workspace build configuration
+globs: 
+alwaysApply: true
+---
+
+# Build Configuration
+
+Read and follow build settings from workspace configuration files (CMakeLists.txt, .code-workspace, etc.) including:
+- CMake minimum version
+- Compiler flags and standards
+- Build targets and dependencies
