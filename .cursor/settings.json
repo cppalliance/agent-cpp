@@ -1,0 +1,9 @@
+{
+  "cursor.general.enableAutoApplyInDotFolders": true,
+  "cursor.chat.autoApplyDiffForPaths": [
+    ".temp/**",
+    ".cursor/**",
+    ".vscode/**",
+    ".github/**"
+  ]
+}
