@@ -27,6 +27,8 @@ Boost.Asio gave us the field experience. These design choices reflect what we le
 
 ## The Library Family
 
+Beast2 is an umbrella term for a family of libraries that work together:
+
 **Boost.Capy** — The execution foundation, optimized for async I/O. Core types: `task<T>`, `thread_pool`, `strand`, `async_mutex`. Tasks propagate executor context through `await_suspend` automatically, guaranteeing correct executor affinity. Provides allocation-free type erasure, frame allocators for coroutine memory, automatic stop token propagation, and buffer algorithms. **This library alone** should go into the C++ Standard Library.
 
 **Boost.Corosio** — Coroutine-first portable networking and I/O that wrap per-platform implementations. Every operation returns an awaitable; no callbacks. Core types: `socket`, `acceptor`, `resolver`, `strand`, `io_context`, SSL stream wrappers (WolfSSL and OpenSSL), non-templated streams, scatter/gather buffers, native `std::stop_token` cancellation.
